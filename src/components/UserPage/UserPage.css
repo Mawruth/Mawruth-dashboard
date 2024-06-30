@@ -1,0 +1,102 @@
+.user-page form {
+  border-radius: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.user-page form .title {
+  padding: 11px;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  background: linear-gradient(90deg, #b9a874, #4c3a18);
+  color: #fff;
+  font-weight: bold;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.user-page form .data {
+  border: 1px solid #e0e0df;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+  padding: 20px;
+}
+
+.user-page form .data > .elm {
+  margin-bottom: 20px;
+}
+
+.user-page form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #2d2e29;
+  font-weight: bold;
+  text-align: right;
+}
+
+.user-page form input,
+.user-page form textarea {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 15px;
+}
+
+.user-page form input:focus {
+  outline: 0;
+}
+
+.user-page form input.login-btn {
+  background: linear-gradient(90deg, #b9a874, #4c3a18);
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.img-preview {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.img-preview img {
+  width: 100%;
+}
+
+.message {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: #4c3a18;
+}
+
+.type-select {
+  padding: 9px;
+  width: 100%;
+  max-height: 150px;
+  font-family: "Cairo";
+}
+
+.type-select option {
+  font-size: 15px;
+  font-family: "Cairo";
+  padding: 10px;
+}
+
+.museum-select-list {
+  display: none;
+}
+
+.museum-select-list.visible {
+  display: block;
+}

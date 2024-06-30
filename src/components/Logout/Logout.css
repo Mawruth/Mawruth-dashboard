@@ -1,0 +1,15 @@
+.logout {
+  position: absolute;
+  left: 25px;
+  top: 0;
+}
+
+.logout .logout-btn {
+  font-family: inherit;
+  padding: 4px 25px;
+  background-color: #f44336;
+  border: 0;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}

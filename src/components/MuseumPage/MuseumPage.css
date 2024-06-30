@@ -1,0 +1,181 @@
+.museum-page form {
+  border-radius: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.museum-page form .title {
+  padding: 11px;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  background: linear-gradient(90deg, #b9a874, #4c3a18);
+  color: #fff;
+  font-weight: bold;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.museum-page form .data {
+  border: 1px solid #e0e0df;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+  padding: 20px;
+}
+
+.museum-page form .data > .elm {
+  margin-bottom: 20px;
+}
+
+.museum-page form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #2d2e29;
+  font-weight: bold;
+  text-align: right;
+}
+
+.museum-page form input,
+.museum-page form textarea {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 15px;
+}
+
+.museum-page form input:focus {
+  outline: 0;
+}
+
+.museum-page form textarea {
+  resize: none;
+  height: 200px;
+}
+
+.museum-page form .address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.museum-page form .address .elm {
+  flex: 1;
+}
+
+.museum-page form .cat-select {
+  padding: 9px;
+  width: 100%;
+  max-height: 150px;
+}
+
+.museum-page form .cat-select option {
+  font-size: 15px;
+  font-family: "Cairo";
+  padding: 10px;
+}
+
+.museum-page form input.login-btn {
+  background: linear-gradient(90deg, #b9a874, #4c3a18);
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.museum-page form.museum-images .data {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+
+.museum-page form.museum-images .data .museum-img,
+.museum-page form.museum-images .data .add-btn {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  height: 100px;
+}
+
+.museum-page form.museum-images .data .add-btn .btn {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.museum-page form.museum-images .data .add-btn .btn input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.museum-page form.museum-images .data .add-btn .btn .plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  transform: translate(-50%, -50%);
+  color: #878787;
+}
+
+.selected-item {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.selected-item .item {
+  padding: 10px 30px;
+  background-color: #f5f1ea;
+  font-weight: bold;
+  font-size: 13px;
+  position: relative;
+}
+
+.selected-item .item span {
+  position: absolute;
+  top: -9px;
+  right: -10px;
+  font-weight: normal;
+  width: 25px;
+  background: #4c3a18;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.img-preview {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.img-preview img {
+  width: 100%;
+}
+
+.message {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: #4c3a18;
+}

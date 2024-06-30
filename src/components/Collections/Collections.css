@@ -1,0 +1,76 @@
+.collections .data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.collections .add-collection-btn {
+  border: 0;
+  padding: 10px 30px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: #fff;
+  background: linear-gradient(90deg, #b9a874, #4c3a18);
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.collections .add-collection-btn a {
+  color: #fff;
+}
+
+.collections .collection {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.collections .collection .collection-img {
+  width: 100%;
+  height: 200px;
+  background: #ddd;
+}
+
+.collections .collection .collection-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.collections .collection .collection-data {
+  padding: 10px;
+  border: 1px solid #f4efe8;
+}
+
+.collections .collection .collection-data .collection-name {
+  color: #332b1a;
+  font-size: 20px;
+}
+
+.collections .collection .collection-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collections .collection .collection-control button {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.edit-btn {
+  border: 0;
+  color: #fff;
+  background-color: #a17c48;
+}
+
+.edit-btn a,
+.delete-btn a {
+  color: #fff;
+}
+
+.delete-btn {
+  border: 0;
+  background: #e52222;
+  color: #fff;
+}

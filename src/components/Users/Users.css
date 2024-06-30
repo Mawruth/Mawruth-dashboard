@@ -1,0 +1,81 @@
+.users .data {
+  display: flex;
+  flex-direction: column;
+}
+
+.users .add-user-btn {
+  border: 0;
+  padding: 10px 30px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: #fff;
+  background: linear-gradient(90deg, #b9a874, #4c3a18);
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.users .add-user-btn a {
+  color: #fff;
+}
+
+.users .user {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.users .user .user-img {
+  width: 15%;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.users .user .user-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.users .user .user-data {
+  padding: 10px;
+  flex: 1;
+}
+
+.users .user .user-data .user-name {
+  color: #332b1a;
+  font-size: 20px;
+}
+
+.users .user .user-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.users .user .user-control button {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.edit-btn {
+  border: 0;
+  color: #fff;
+  background-color: #a17c48;
+}
+
+.edit-btn a,
+.delete-btn a {
+  color: #fff;
+}
+
+.delete-btn {
+  border: 0;
+  background: #e52222;
+  color: #fff;
+}

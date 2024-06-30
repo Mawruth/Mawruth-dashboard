@@ -1,0 +1,76 @@
+.categories .data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.categories .add-category-btn {
+  border: 0;
+  padding: 10px 30px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: #fff;
+  background: linear-gradient(90deg, #b9a874, #4c3a18);
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.categories .add-category-btn a {
+  color: #fff;
+}
+
+.categories .category {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.categories .category .category-img {
+  width: 100%;
+  height: 200px;
+  background: #ddd;
+}
+
+.categories .category .category-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.categories .category .category-data {
+  padding: 10px;
+  border: 1px solid #f4efe8;
+}
+
+.categories .category .category-data .category-name {
+  color: #332b1a;
+  font-size: 20px;
+}
+
+.categories .category .category-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories .category .category-control button {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.edit-btn {
+  border: 0;
+  color: #fff;
+  background-color: #a17c48;
+}
+
+.edit-btn a,
+.delete-btn a {
+  color: #fff;
+}
+
+.delete-btn {
+  border: 0;
+  background: #e52222;
+  color: #fff;
+}

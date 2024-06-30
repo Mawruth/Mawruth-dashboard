@@ -1,0 +1,76 @@
+.pieces .data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.pieces .add-piece-btn {
+  border: 0;
+  padding: 10px 30px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: #fff;
+  background: linear-gradient(90deg, #b9a874, #4c3a18);
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pieces .add-piece-btn a {
+  color: #fff;
+}
+
+.pieces .piece {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.pieces .piece .piece-img {
+  width: 100%;
+  height: 200px;
+  background: #ddd;
+}
+
+.pieces .piece .piece-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.pieces .piece .piece-data {
+  padding: 10px;
+  border: 1px solid #f4efe8;
+}
+
+.pieces .piece .piece-data .piece-name {
+  color: #332b1a;
+  font-size: 20px;
+}
+
+.pieces .piece .piece-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pieces .piece .piece-control button {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.edit-btn {
+  border: 0;
+  color: #fff;
+  background-color: #a17c48;
+}
+
+.edit-btn a,
+.delete-btn a {
+  color: #fff;
+}
+
+.delete-btn {
+  border: 0;
+  background: #e52222;
+  color: #fff;
+}

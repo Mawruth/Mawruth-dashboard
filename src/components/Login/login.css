@@ -1,0 +1,75 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper .login {
+  width: 40%;
+  background-image: url("./../../../public/images/vintage-grunge-paper-background\ 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  text-align: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.wrapper .login img {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.wrapper .login h2 {
+  color: #2d2e29;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.wrapper .login form label {
+  display: block;
+  text-align: right;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #2d2e29;
+}
+
+.wrapper .login form input {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #dbd4cb;
+  font-size: 15px;
+}
+
+.wrapper .login form input:focus {
+  outline: 0;
+}
+
+.wrapper .login form a {
+  text-align: right;
+  display: block;
+  margin-bottom: 10px;
+  color: #686a60;
+  font-size: 12px;
+}
+
+.wrapper .login form input.login-btn {
+  background: linear-gradient(90deg, #b9a874, #4c3a18);
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.wrapper .login .error-msg {
+  font-size: 20px;
+  color: #e52222;
+}

@@ -1,0 +1,126 @@
+.aside {
+  width: 25%;
+  margin-left: 5%;
+}
+
+.side-bar {
+  background-image: url("./../../../public/images/vintage-grunge-paper-background\ 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: inherit;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.side-bar .logo-img {
+  width: 100%;
+  padding: 50px 0;
+  position: relative;
+}
+
+.side-bar .logo-img::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #b9a874, #4c3a18);
+}
+
+.side-bar .logo-img img {
+  margin: auto;
+  display: block;
+}
+
+.side-bar .logo-img .museum-name {
+  text-align: center;
+  color: #332b1a;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.side-bar::-webkit-scrollbar {
+  width: 1px;
+}
+
+.side-bar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.side-bar::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #b9a874, #4c3a18);
+}
+
+.side-bar ul li {
+  padding: 13px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0df;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.side-bar ul li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 100%;
+  background: linear-gradient(90deg, #b9a874, #4c3a18);
+  z-index: 0;
+  transition: all 0.5s ease;
+}
+
+.side-bar ul li:hover::after {
+  left: 0;
+}
+
+.side-bar ul li:hover a {
+  color: white;
+  font-weight: bold;
+}
+
+.side-bar ul li a {
+  color: #000;
+  font-size: 17px;
+  z-index: 1;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.side-bar .user-account {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.side-bar .user-account .acc-img {
+  width: 50px;
+  background-color: #ddd;
+  padding: 20px;
+  border-radius: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 22px;
+}
+
+.side-bar .user-account .acc-data {
+  font-size: 12px;
+}
+
+.user-name {
+  font-size: 15px;
+  margin-top: 10px;
+}
