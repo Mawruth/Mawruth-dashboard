@@ -53,6 +53,7 @@ function App() {
               <Route path="/users/add" exact component={UserPage} />
               <Route path="/pieces" exact component={Pieces} />
               <Route path="/pieces/add" exact component={PiecePage} />
+              <Route path="/pieces/:id/edit" exact component={PiecePage} />
               <Route path="/halls" exact component={Halls} />
               <Route path="/halls/add" exact component={HallPage} />
               <Route path="/collections" exact component={Collections} />

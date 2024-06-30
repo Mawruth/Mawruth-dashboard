@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Loading from "../Loading/Loading";
 import axios from "axios";
 
-function PiecePage() {
+function PiecePage(props) {
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
   const [imagePreivew, setImagePreview] = useState("");
@@ -40,6 +40,25 @@ function PiecePage() {
 
     fetchData();
   }, [null]);
+
+  const [piece, setPiece] = useState(null);
+  const [update, setUpdate] = useState(false);
+
+  if (props.match.path.includes("edit")) {
+    useEffect(() => {
+      const piece = JSON.parse(localStorage.getItem("piece"));
+      setPiece(piece);
+      setName(piece.name);
+      setDescription(piece.description);
+      setImagePreview(piece.image);
+      setAge(piece.age);
+      setHall(piece.hallId);
+      setArPath(piece.arPath);
+      setIsMasterPiece(piece.isMasterPiece);
+      setCollectionId(piece.collectionId);
+      setUpdate(true);
+    }, []);
+  }
 
   const submitData = async (event) => {
     event.preventDefault();

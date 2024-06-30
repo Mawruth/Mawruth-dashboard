@@ -51,7 +51,7 @@ function Pieces() {
                   localStorage.setItem("piece", JSON.stringify(item));
                 }}
               >
-                <Link to={`/categories/${item.id}/edit`}>
+                <Link to={`/pieces/${item.id}/edit`}>
                   <FontAwesomeIcon icon={faPenToSquare} />
                 </Link>
               </button>
